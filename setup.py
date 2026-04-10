@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="llm-injection-guard",
-    version="0.2.0",
+    version="0.3.0",
     description=(
         "Drop-in prompt injection defense for LLM apps and AI agents — "
         "detect, sanitize, block, and audit injection attacks in real time. "
@@ -11,8 +11,7 @@ setup(
     ),
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    author="PromptShield Contributors",
-    url="https://github.com/MaheshMakwana787/llm-injection-guard",
+    url="https://github.com/maheshmakvana/llm-injection-guard",
     packages=find_packages(exclude=["tests*", "venv*"]),
     python_requires=">=3.8",
     install_requires=[],
@@ -50,7 +49,7 @@ setup(
         "llm sanitizer", "llm threat detection",
     ],
     project_urls={
-        "Bug Reports": "https://github.com/MaheshMakwana787/llm-injection-guard/issues",
-        "Source": "https://github.com/MaheshMakwana787/llm-injection-guard",
+        "Bug Reports": "https://github.com/maheshmakvana/llm-injection-guard/issues",
+        "Source": "https://github.com/maheshmakvana/llm-injection-guard",
     },
 )

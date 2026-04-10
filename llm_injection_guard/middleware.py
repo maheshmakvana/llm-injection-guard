@@ -18,7 +18,7 @@ def create_fastapi_middleware(
 
     Usage:
         from fastapi import FastAPI
-        from promptshield.middleware import create_fastapi_middleware
+        from llm_injection_guard.middleware import create_fastapi_middleware
 
         app = FastAPI()
         app.middleware("http")(create_fastapi_middleware())
@@ -72,7 +72,7 @@ def create_flask_middleware(
 
     Usage:
         from flask import Flask
-        from promptshield.middleware import create_flask_middleware
+        from llm_injection_guard.middleware import create_flask_middleware
 
         app = Flask(__name__)
         create_flask_middleware(app)

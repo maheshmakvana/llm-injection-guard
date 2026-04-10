@@ -1,7 +1,7 @@
 import pytest
-from promptshield import InjectionDetector, PromptScanner, AuditLogger
-from promptshield.exceptions import InjectionDetectedError
-from promptshield.detector import DetectionResult
+from llm_injection_guard import InjectionDetector, PromptScanner, AuditLogger
+from llm_injection_guard.exceptions import InjectionDetectedError
+from llm_injection_guard.detector import DetectionResult
 
 # --- InjectionDetector tests ---
 
@@ -86,7 +86,7 @@ def test_scanner_no_block_mode():
 # --- AuditLogger tests ---
 
 def test_audit_logger_summary():
-    from promptshield.audit import AuditEvent, AuditLogger, hash_input
+    from llm_injection_guard.audit import AuditEvent, AuditLogger, hash_input
     import time
     audit = AuditLogger()
     event = AuditEvent(

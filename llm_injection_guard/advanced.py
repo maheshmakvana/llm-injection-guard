@@ -1,5 +1,5 @@
 """
-promptshield.advanced — Advanced prompt injection defense utilities.
+llm_injection_guard.advanced — Advanced prompt injection defense utilities.
 
 New in 0.2.0:
 - InputSanitizer: Strip / replace injection markers before passing to the LLM
