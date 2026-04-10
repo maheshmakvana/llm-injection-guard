@@ -284,6 +284,19 @@ MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
+## Changelog
+
+### v0.3.0 (2026-04-10)
+- Added Changelog section to README for release traceability
+- Renamed module to `llm_injection_guard` to match PyPI package name
+- Fixed all import references
+
+### v0.2.0
+- Full prompt injection defense library with advanced features: pattern matching, semantic scanning, audit log, rate limiting
+
+### v0.1.0
+- Initial release: real-time prompt injection detection, blocking, auditing
+
 ## Related
 
 - [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
