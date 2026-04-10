@@ -245,7 +245,7 @@ AuditLogger(log_to_file: str = None)  # Optional JSONL file path
 
 ### Exceptions
 
-- `PromptShieldError` — Base exception
+- `InjectionGuardError` — Base exception
 - `InjectionDetectedError(message, threat_level, patterns_matched)` — Raised when injection detected and blocking is enabled
 - `ScanError` — Raised on scanner configuration errors
 
@@ -268,7 +268,7 @@ The EU AI Act (enforcement from August 2026) requires organizations deploying hi
 - Audit trails of AI system interactions
 - Security measures against adversarial inputs
 
-`promptshield` provides all three out of the box.
+`llm-injection-guard` provides all three out of the box.
 
 ---
 

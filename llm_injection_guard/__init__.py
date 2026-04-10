@@ -1,5 +1,5 @@
 """
-promptshield — Drop-in prompt injection defense for LLM apps and AI agents.
+llm-injection-guard — Drop-in prompt injection defense for LLM apps and AI agents.
 
 Detect, block, sanitize, and audit prompt injection attacks in real time.
 Supports FastAPI, Flask, multi-turn session scanning, allow-lists,
@@ -9,7 +9,7 @@ rate-abuse detection, and any Python LLM application.
 from .detector import InjectionDetector, DetectionResult
 from .scanner import PromptScanner
 from .audit import AuditLogger, AuditEvent
-from .exceptions import PromptShieldError, InjectionDetectedError, ScanError
+from .exceptions import InjectionGuardError, InjectionDetectedError, ScanError
 from .patterns import INJECTION_PATTERNS, SUSPICIOUS_KEYWORDS
 
 # Advanced (0.2.0)
@@ -29,7 +29,7 @@ __all__ = [
     "PromptScanner",
     "AuditLogger",
     "AuditEvent",
-    "PromptShieldError",
+    "InjectionGuardError",
     "InjectionDetectedError",
     "ScanError",
     "INJECTION_PATTERNS",

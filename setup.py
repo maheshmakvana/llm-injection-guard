@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="llm-injection-guard",
-    version="0.3.0",
+    version="0.3.3",
     description=(
         "Drop-in prompt injection defense for LLM apps and AI agents — "
         "detect, sanitize, block, and audit injection attacks in real time. "
