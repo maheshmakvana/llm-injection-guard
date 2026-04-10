@@ -274,31 +274,18 @@ The EU AI Act (enforcement from August 2026) requires organizations deploying hi
 
 ## Contributing
 
-Issues and pull requests are welcome at [github.com/MaheshMakwana787/llm-injection-guard](https://github.com/MaheshMakwana787/llm-injection-guard).
+Contributions are welcome! Here's how to get started:
 
----
+1. Fork the repository on [GitHub](https://github.com/maheshmakvana/llm-injection-guard)
+2. Create a feature branch: `git checkout -b feature/your-feature`
+3. Make your changes and add tests
+4. Run the test suite: `pytest tests/ -v`
+5. Submit a pull request
 
-## License
+Please open an issue first for major changes to discuss the approach.
 
-MIT License. See [LICENSE](LICENSE) for details.
+## Author
 
----
+**Mahesh Makvana** — [GitHub](https://github.com/maheshmakvana) · [PyPI](https://pypi.org/user/maheshmakvana/)
 
-## Changelog
-
-### v0.3.0 (2026-04-10)
-- Added Changelog section to README for release traceability
-- Renamed module to `llm_injection_guard` to match PyPI package name
-- Fixed all import references
-
-### v0.2.0
-- Full prompt injection defense library with advanced features: pattern matching, semantic scanning, audit log, rate limiting
-
-### v0.1.0
-- Initial release: real-time prompt injection detection, blocking, auditing
-
-## Related
-
-- [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
-- [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689)
-- [NIST AI Risk Management Framework](https://www.nist.gov/system/files/documents/2023/01/26/AI%20RMF%201.0.pdf)
+MIT License
